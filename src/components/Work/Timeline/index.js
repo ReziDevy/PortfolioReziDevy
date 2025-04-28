@@ -4,38 +4,45 @@ import './index.scss';
 const Timeline = () => {
   const [events, setEvents] = useState([
     {
-      date: 'Jun 2022 - May 2023',
-      title: "Kadama Tutoring",
+      date: '2025',
+      title: "Bloco de Notas ReziDevy",
       description: [
-        "Dedicated and results-driven tutor with a proven track record of success in guiding students through challenging subjects.",
-        "Specialized in providing comprehensive support in <b>geometry, trigonometry, math analysis, calculus 1, physics, intro to computer science, and SAT preparation</b>.",
-        "Over the course of a year, successfully assisted more than <b>30 students</b> in understanding and mastering these subjects, fostering a deep appreciation for learning and academic achievement.",
+        "Desenvolvimento de um Bloco de Notas simples com funcionalidades para criar, editar e salvar notas localmente no navegador.",
+        "Tecnologias utilizadas: <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>.",
+        "Projeto focado em estudar a manipulação de dados no localStorage e a criação de interfaces simples e intuitivas."
       ],
-      "expanded": false
+      expanded: false
     },
     {
-      date: "Aug 2021 - May 2022",
-      title: "NASA HUNCH",
+      date: '2025',
+      title: "AvaliaTudo",
       description: [
-        "Spearheaded the development of <b>magnetic boots</b> by leveraging expertise in manipulating stepper motors and electromagnets using <b>Arduino</b> and <b>C++</b>.",
-        "Led the design and implementation of a fully automated system, showcasing technical proficiency and attention to detail.",
-        "Achieved notable recognition by emerging as one of the top four teams out of 800 participating groups in the <b>magnetic boots challenge</b>."
+        "Plataforma de feedback e avaliação de produtos e serviços, com funcionalidades de cadastro, login, avaliação e feedback.",
+        "Tecnologias utilizadas: <b>Node.js</b>, <b>Express</b>, <b>MongoDB</b>.",
+        "Projeto focado em entender a integração do backend com banco de dados e a construção de APIs RESTful."
       ],
-      "expanded": false
-    }, 
+      expanded: false
+    },
     {
-      date: "Aug 2021 - May 2023",
-      title: "Hack Club",
+      date: '2025',
+      title: "Portfolio ReziDevy",
       description: [
-        "Pioneering leader in the establishment and leadership of the first Computer Science Club at <b>Chatfield Senior High School</b>, operating under the auspices of the <b>Hack Club</b> organization.",
-        "Initiated and cultivated a vibrant community, guiding a diverse group of over <b>20 students</b> in their introduction to coding.",
-        "Delivered engaging sessions to teach foundational coding concepts in <b>Java</b>, fostering a passion for computer science among club members.",
-        "Demonstrated strong leadership skills by leading a subgroup of <b>five students</b> to participate in a <b>hackathon</b>, where the team showcased their coding skills and problem-solving capabilities."
+        "Portfólio pessoal para mostrar meus projetos e habilidades em desenvolvimento web.",
+        "Tecnologias utilizadas: <b>React</b>, <b>HTML</b>, <b>CSS</b>.",
+        "Projeto voltado para a criação de uma página interativa, focando na personalização de componentes e na apresentação de projetos."
       ],
-      "expanded": false
+      expanded: false
+    },
+    {
+      date: '2025',
+      title: "Rezzy Landing Page",
+      description: [
+        "Landing page pessoal criada para divulgar minha identidade como desenvolvedor.",
+        "Tecnologias utilizadas: <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>.",
+        "Projeto com foco em design e experiência do usuário, com layout responsivo."
+      ],
+      expanded: false
     }
-    
-    
   ]);
 
   const handleItemClick = (index) => {

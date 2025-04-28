@@ -1,16 +1,28 @@
 {
     "portfolio": [
         {
-            "cover": "/portfolio/Chatbot.png", 
-            "title": "StudySmartBot", 
-            "description": "ReactJS, NodeJS, Web Sockets", 
-            "url": "https://studysmartbot.netlify.app/"
-        }, 
+            "cover": "/portfolio/BlocoDeNotas-ReziDevy.png", 
+            "title": "Bloco de Notas - ReziDevy", 
+            "description": "Aplicativo de bloco de notas com funcionalidades de salvar e editar notas.",
+            "url": "https://rezidevy.github.io/BlocoDeNotas-ReziDevy/"
+        },
         {
-            "cover": "/portfolio/Coursework.jpeg", 
-            "title": "Coding Course Work", 
-            "description": "Python, Java", 
-            "url": "https://github.com/maxxcraig/CS-150-Projects"
+            "cover": "/portfolio/PortfolioReziDevy.png", 
+            "title": "Portfolio - ReziDevy", 
+            "description": "Portfólio pessoal com projetos desenvolvidos e habilidades.",
+            "url": "https://rezidevy.github.io/PortfolioReziDevy/"
+        },
+        {
+            "cover": "/portfolio/AvaliaTudo.png", 
+            "title": "Avalia Tudo", 
+            "description": "Plataforma de avaliação de serviços e produtos.",
+            "url": "https://rezidevy.github.io/AvaliaTudo/"
+        },
+        {
+            "cover": "/portfolio/RezzyLandingPage.png", 
+            "title": "Rezzy Landing Page", 
+            "description": "Landing page desenvolvida para fins promocionais.",
+            "url": "https://rezidevy.github.io/rezzy-landing-page/"
         }
     ]
 }

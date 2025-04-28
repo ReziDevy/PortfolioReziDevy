@@ -4,8 +4,8 @@ import "./index.scss"
 
 const LanguageList = () => {
   const [languages] = useState([
-    { name: "Java", progress: 100, className: "java-progress", years: 2 },
-    { name: "Python", progress: 100, className: "python-progress", years: 2 },
+    { name: "Java", progress: 100, className: "java-progress", years: 1 },
+    { name: "Python", progress: 100, className: "python-progress", years: 1 },
     { name: "HTML/CSS/JS", progress: 50, className: "web-progress", years: 1 },
     { name: "SQL", progress: 50, className: "sql-progress", years: 1 },
   ]);

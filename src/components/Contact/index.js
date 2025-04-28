@@ -54,15 +54,15 @@ const Contact = () => {
                                 </h1>
                                 <p>
                                     <br/>
-                                    Thank you for your interest in getting in touch! 
+                                    Agradecemos o seu interesse em entrar em contato! 
                                     <br/>
-                                    <br/>I value open communication and welcome any inquiries, feedback, or collaboration opportunities. Please don't hesitate to get in touch with me by filling out the contact form.
+                                    <br/>Valorizo ​​a comunicação aberta e estou aberto a quaisquer perguntas, feedbacks ou oportunidades de colaboração. Não hesite em entrar em contato comigo preenchendo o formulário de contato.
                                     <br/>
                                     <br/>
-                                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/max-craig-7680872a4/">
+                                    <a target = "_blank" rel = "noreferrer" href = "https://www.linkedin.com/in/bruno-rezende-b219901aa/">
                                         <FontAwesomeIcon icon={faLinkedin}  class = "icon" color = "#4d4d4e" />
                                     </a>
-                                    <a target = "_blank" rel = "noreferrer" href = "mailto:max8alton@gmail.com">
+                                    <a target = "_blank" rel = "noreferrer" href = "mailto:rezendecontatotrabalho@gmail.com">
                                         <FontAwesomeIcon icon={faEnvelope} class = "icon" color = "#4d4d4e" />
                                     </a>
                                 </p>

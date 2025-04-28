@@ -12,7 +12,8 @@ import Dev from './components/About/Dev';
 
 function App() {
   useEffect(() => {
-    document.title = 'Max\'s Portfolio';
+    // Atualizando o título da página
+    document.title = 'Bruno Rezende\'s Portfolio';  // Título atualizado
   }, []);
 
   return (

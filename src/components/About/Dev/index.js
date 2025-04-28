@@ -23,38 +23,41 @@ const About = () => {
 
     return (
         <>
-            <div className = "container about-page"> 
-                <div className = "text-zone"> 
+            <div className="container about-page"> 
+                <div className="text-zone"> 
                     <h1>
-                        <AnimatedLetters letterClass={letterClass}  strArray = {"About me".split("")} idx={15}/>
+                        <AnimatedLetters letterClass={letterClass} strArray={"About me".split("")} idx={15}/>
                     </h1>
                     <p>
-                    I am a very ambitious full-stack developer with a unique background that has prepared me to be a team player who communicates effectively, faces problems analytically and has the technical skills to tackle any challenge. 
-                    <br/>
+                        Sou um desenvolvedor full-stack em formação, com uma paixão pela criação de soluções tecnológicas eficientes e inovadoras. Embora ainda esteja em processo de aprendizado, tenho muita determinação e foco em desenvolver minhas habilidades tanto no front-end quanto no back-end.
+                        <br/>
+                        Com experiência prática em linguagens como Java, Python, HTML/CSS/JS, e SQL, estou sempre em busca de novos desafios para expandir meus conhecimentos. Tenho uma visão analítica para resolver problemas, uma boa comunicação com minha equipe, e sou movido pela busca de excelência em cada projeto que me envolvo.
+                        <br/>
+                        Minha jornada como desenvolvedor está apenas começando, mas minha motivação é forte e estou pronto para enfrentar o que vier pela frente. Se você está procurando alguém que combine aprendizado contínuo com um forte desejo de crescer, estou pronto para contribuir e aprender ao mesmo tempo.
+                    </p>
                     <DevList />
                     <Link to="/about" className="flat-button">LANGUAGES</Link>
                     <br/>
                     <Link to="/about/tech" className="flat-button">FRAMEWORKS/TECHNOLOGIES</Link>
-                    </p>
                 </div>
-                <div className = "stage-cube-cont">
-                    <div className = "cubespinner"> 
-                        <div className = "face1">
+                <div className="stage-cube-cont">
+                    <div className="cubespinner"> 
+                        <div className="face1">
                             <FontAwesomeIcon icon={faAmazon}/>
                         </div>
-                        <div className = "face2">
+                        <div className="face2">
                             <FontAwesomeIcon icon={faHtml5} color="#F06529"/>
                         </div>
-                        <div className = "face3">
+                        <div className="face3">
                             <FontAwesomeIcon icon={faCss3} color="#28A4D9"/>
                         </div>
-                        <div className = "face4">
+                        <div className="face4">
                             <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
                         </div>
-                        <div className = "face5">
+                        <div className="face5">
                             <FontAwesomeIcon icon={faPython} color="#ffd700"/>
                         </div>
-                        <div className = "face6">
+                        <div className="face6">
                             <FontAwesomeIcon icon={faJava} color="#EC4D28"/>
                         </div>
                     </div>
@@ -62,6 +65,7 @@ const About = () => {
             </div>
             <Loader type="pacman" />
         </>
-    )
+    );
 }
-export default About
+
+export default About;
